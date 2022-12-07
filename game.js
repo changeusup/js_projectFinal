@@ -175,7 +175,7 @@ function action(result){
 	}else{
 		reaction.innerHTML = "틀렸습니다!!";
 		document.getElementById("reaction").style.color = 'red';
-		document.getElementById("reaction").style.paddingTop = "260px";
+		document.getElementById("reaction").style.paddingTop = "245px";
 		if(questionCounter == 1){
 			reaction.style.backgroundImage = "url('bee1.png')";			
 		}else if(questionCounter ==2){
